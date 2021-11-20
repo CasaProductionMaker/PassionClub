@@ -2,6 +2,8 @@ h1 {
 	text-align: center;
 	font-family: cursive;
 	color: goldenrod;
+	text-decoration: underline;
+	font-size: 70px;
 }
 body {
 	background-color: darkgoldenrod;
@@ -9,9 +11,58 @@ body {
 p {
 	color: goldenrod;
 }
-a:hover {
-	color: orangered;
-}
 a:link {
 	color: lightgoldenrodyellow;
 }
+a:hover {
+	color: orangered;
+}
+.TopBar {
+	color: black;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 20px;
+	background-color: orange;
+	transition: color 0.5s, background-color 0.5s;
+}
+.TopBar:hover {
+	background-color: darkorange;
+	color: grey;
+}
+.TopHolder {
+	text-align: center;
+	background-color: orange;
+	padding: 10px;
+	margin: 0px;
+}
+
+.DropDown {
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.DropDownContent {
+  display: none;
+  position: absolute;
+  background-color: orange;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.DropDownContent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.DropDownContent a:hover {background-color: #ffa13d;}
+
+.dropdown:hover .DropDownContent {display: block;}
+
+.dropdown:hover .DropDown {background-color: darkorange;}
