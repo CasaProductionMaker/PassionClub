@@ -7,6 +7,8 @@ h1 {
 }
 body {
 	background-color: darkgoldenrod;
+	margin: 0;
+	padding: 0;
 }
 p {
 	color: goldenrod;
