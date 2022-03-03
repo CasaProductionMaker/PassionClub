@@ -24,6 +24,9 @@ a:link {
 a:hover {
 	color: orangered;
 }
+.links:visited {
+	color: darkred;
+}
 
 .TopBar {
 	color: black;
@@ -47,7 +50,7 @@ a:hover {
 }
 
 .DropDown {
-  border: none;
+	border: none;
 }
 .dropdown {
   position: relative;
@@ -88,4 +91,8 @@ img {
 	margin-bottom: 40px;
 	text-align: center;
 	display: block;
+}
+
+li {
+	list-style: none;
 }
