@@ -1,50 +1,54 @@
 h1 {
 	text-align: center;
 	font-family: cursive;
-	color: goldenrod;
+	color: #143642;
 	text-decoration: underline;
 	font-size: 70px;
 }
 
 h3 {
-	color: goldenrod;
+	color: #143642;
+}
+
+h2 {
+	color: #143642;
 }
 
 body {
-	background-color: darkgoldenrod;
+	background-color: #9AE5E6;
 	margin: 0;
 	padding: 0;
 }
 p {
-	color: goldenrod;
+	color: #143642;
 }
 a:link {
-	color: lightgoldenrodyellow;
+	color: #A36F7B;
 }
 a:hover {
-	color: orangered;
+	color: #FF6666;
 }
 .links:visited {
-	color: darkred;
+	color: #FF6666;
 }
 
 .TopBar {
-	color: black;
+	color: #143642;
 	padding: 10px;
 	text-decoration: none;
 	font-weight: bold;
 	font-family: monospace;
 	font-size: 20px;
-	background-color: orange;
+	background-color: #477890;
 	transition: color 0.5s, background-color 0.5s;
 }
 .TopBar:hover {
-	background-color: darkorange;
-	color: grey;
+	background-color: #4F629C;
+	color: #A8F9FF;
 }
 .TopHolder {
 	text-align: center;
-	background-color: orange;
+	background-color: #477890;
 	padding: 0px;
 	margin: 0px;
 }
@@ -59,24 +63,24 @@ a:hover {
 .DropDownContent {
   display: none;
   position: absolute;
-  background-color: orange;
+  background-color: #477890;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .DropDownContent a {
-  color: black;
+  color: #143642;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.DropDownContent a:hover {background-color: #ffa13d;}
+.DropDownContent a:hover {background-color: #4F629C;}
 
 .dropdown:hover .DropDownContent {display: block;}
 
-.dropdown:hover .DropDown {background-color: darkorange;}
+.dropdown:hover .DropDown {background-color: #4F629C;}
 
 iframe {
 	margin-right: auto;
